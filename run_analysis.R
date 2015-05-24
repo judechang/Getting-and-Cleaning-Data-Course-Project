@@ -1,5 +1,5 @@
 #step1:Merges the training and the test sets to create one data set
-
+library(dpyr)
 #read data from local file
 trainset<-read.table('./train/X_train.txt')
 testset<-read.table('./test/X_test.txt')
